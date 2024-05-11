@@ -1,0 +1,107 @@
+/* ====== common css part start ======= */
+*{
+    margin    : 0;
+    padding   : 0;
+    outline   : 0;
+    box-sizing: border-box;
+}
+body{
+    background        : url(../images/image.jpg);
+    background-repeat : no-repeat;
+    background-size   : cover;
+    min-width         : 100%;
+    min-height        : 100vh;
+    display           : flex;
+    justify-content   : center;
+    align-items       : flex-start;
+}
+/* =====common css done ===== */
+/* ====== html part start ===== */
+.all{
+    width          : 500px;
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+    align-items    : center;
+    border         : 3px solid #7D0A0A;
+    border-radius  : 8px;
+    margin-top     : 30px;
+    padding-bottom :10px;
+}
+.heading{
+    width        : 100%;
+    height       : 40px;
+    background   :#7D0A0A ;
+    text-align   : center;
+    border       : none;
+    border-radius: 3px 3px 0 0;
+    color        : #fff;
+
+}
+.todoBox{
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    margin-top      : 20px;
+    width           : 300px;
+    height          : 40px;
+    border          : 2px solid #7D0A0A;
+    border-radius   : 5px;
+}
+.todoInput{
+    width        :260px;
+    height       : 38px;
+    border       : none;
+    outline      : none;
+    border-radius: 3px;
+    text-align   : center;
+    font-size    : 16px;
+    font-weight  : 600;
+}
+.todoButton{
+    width      : 40px;
+    height     : 38px;
+    background :#7D0A0A;
+    border     : none;
+}
+/* ===== html part end ==== */
+/* ===== java part start=== */
+.todoResult{
+    width : 480px;
+}
+.singleTodo{
+    margin-top    : 20px;
+    width         : 100%;
+    height        : 45px;
+    background    :transparent;
+    border-radius : 5px;
+    border        : 1px solid #7D0A0A;
+    display       : flex;
+    /* justify-content: end; */
+}
+.singleInput{
+    width        : 395px;
+    height       : 44px;
+    border       : none;
+    background   :#7D0A0A;
+    border-radius: 5px;
+    font-size    : 20px;
+    color        : #fff;
+    padding      : 10px;
+    
+}
+.Edit{
+    width        : 51px;
+    height       : 43px;
+    border       : none;
+    background   : lawngreen;
+    border-radius: 3px;
+}
+.Delete{
+    width        : 52px;
+    height       : 43px;
+    border       : none;
+    background   : red;
+    border-radius: 3px;
+}
+/* ===== java part end ==== */
